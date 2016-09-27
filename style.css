@@ -1,10 +1,24 @@
 body {
-	background-image: url("BG.png");
+	background-image: url("370203.jpg");
+	background-position: fill;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 }
-#header{
-	background-color: grey;
+#menu {
+	height: 80%;
+	width: 12%;
+	border-style: groove;
+	border-color: black;
+	position: absolute;
+	background-color: #96f321;
+	color: black;
+}
+#menu li {
+	margin-bottom: 20px;
+}
+#header {
 	vertical-align: top;
-	width: 1850px;
+	width: 100%;
 	height: 105px;
 	display:inline-block;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -13,33 +27,50 @@ body {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-	display:-webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
 	color: #96f321;
-	border-style: solid;
 	border-color: #96f321;
+	margin-top: 50px;
+	border-style: solid;
 }
 #headersal{
-	background-color: grey;
 	vertical-align: top;
-	width: 1850px;
+	width: 79%;
 	height: 100px;
-	display:-webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
+	display: inline-block;
+}
+#headersal img{
+	vertical-align: top;
+	display: inline-block;
+	width: 105px;
+	height: 105px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#headersal h1{
+	vertical-align: top;
+	display: inline-block;
+}
+#righthead {
+	vertical-align: top;
+	display: inline-block;
+	width: 20%;
+	height: 110px;
+}
+#righthead img {
+	margin-left: 50px;
 }
 #collage {
 	display: inline-block;
 	vertical-align: top;
-	width: 1850px;
+	width: 80%;
 	height: 1500px;
 	margin-top: 0px;
 	display:-webkit-box;
 	-webkit-box-pack:center;
 	-webkit-box-align:center;
-	border-style: solid;
 	border-color: #96f321;
+	background-image: url("swoosh.png");
+	background-repeat: repeat-x;
 }
 #pic1 {
 	display: inline-block;
@@ -52,7 +83,7 @@ body {
 	filter: none;
 	-webkit-filter: grayscale(0);
 }
-#S, #A, #L, #V, #A, #D, #O, #R{
+#S, #A, #L, #V, #A, #D, #O, #R {
 	display:-webkit-box;
 	-webkit-box-pack:center;
 	-webkit-box-align:center;
@@ -63,7 +94,7 @@ body {
 	font-weight: 500;
 	line-height: 26.4px;
 	vertical-align: top;
-	color: black;
+	color: #96f321;
 }
 #S, #A, #L, #V, #A, #D, #O, #R:hover {
 	color: #96f321;
@@ -145,30 +176,288 @@ body {
 	filter: none;
 	-webkit-filter: grayscale(0);
 }
-#gallery {
+#intro {
 	vertical-align: top;
-	width:1850px;
-	height:1850px;
+	width:70%;
+	height:700px;
+	border-style: solid;
+	display:inline-block;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #96f321;
+	border-color: #96f321;
+}
+#exp{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #96f321;
+	margin-bottom: 70px;
+}
+#experience {
+	vertical-align: top;
+	height: 3000px;
+	width: 70%;
 	display:-webkit-box;
 	-webkit-box-pack:center;
 	-webkit-box-align:center;
-	background-color: white;
+	border-color: #96f321;
+	margin-left: 13%;
+	margin-right: 13%
 }
-#image1, #image2 {
+#experience h2{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #96f321;
+	margin-bottom: 70px;
+}
+#experience li{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 35px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #96f321;
+	margin-bottom: 40px;
+}
+	#workimg{
+	background-image: url("work.jpg");
+	background-position: 30% 20%;
+	background-repeat: no-repeat;
 	vertical-align: top;
-	width: 920px;
-	height: 616px;
 	display: inline-block;
-}
-#image3, #image4 {
+	width: 99.8%;
+	height: 800px;
+	border-style: solid;
+	}
+	#work1 {
 	vertical-align: top;
-	width: 920px;
-	height: 616px;
+	height: 700px;
+	width: 100%;
 	display: inline-block;
-}
-#image5, #image6 {
+	border-color: #96f321;
+	margin-left: 0%;
+	margin-right: 0%;
+	}
+	#work1:hover{
+	background-image: url("pike.jpg");
+	background-position: stretch;
+	border-style: solid;
+		}
+	#logo1 {
 	vertical-align: top;
-	width: 920px;
-	height: 616px;
 	display: inline-block;
+	height: 700px;
+	width: 300px;
+	border-color: #96f321;
+	}
+	#logo1 img{
+	margin-bottom: 100px;
+	}
+	#qual1 {
+	vertical-align: top;
+	display: inline-block;
+	height: 700px;
+	width: 70%;
+	border-color: #96f321;
+	}
+
+	#work2 {
+	vertical-align: top;
+	height: 700px;
+	width: 100%;
+	display: inline-block;
+	border-color: #96f321;
+	margin-left: 0%;
+	margin-right: 0%;
+	}
+		#work2:hover{
+	background-image: url("361780.jpg");
+	background-position: center;
+	border-style: solid;
+		}
+	#logo2 {
+	vertical-align: top;
+	display: inline-block;
+	height: 700px;
+	width: 300px;
+	border-color: #96f321;
+	}
+	#logo2 img{
+		margin-bottom: 100px;
+	}
+	#qual2 {
+	vertical-align: top;
+	display: inline-block;
+	height: 700px;
+	width: 70%;
+	border-color: #96f321;
+	}
+	#work3 {
+	vertical-align: top;
+	height: 700px;
+	width: 100%;
+	display: inline-block;
+	border-color: #96f321;
+	margin-left: 0%;
+	margin-right: 0%;
+	}
+	#work3:hover{
+	background-image: url("forest.jpg");
+	border-style: solid;
+	background-position: center;
+		}
+	#logo3 {
+	vertical-align: top;
+	display: inline-block;
+	height: 700px;
+	width: 300px;
+	border-color: #96f321;
+	}
+	#logo3 img{
+	margin-bottom: 100px;
+	}
+	#qual3 {
+	vertical-align: top;
+	display: inline-block;
+	height: 700px;
+	width: 70%;
+	border-color: #96f321;
+	}
+#skillssect{
+	vertical-align: top;
+	display: inline-block;
+	height: 1200px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #96f321;
+	margin-top: 60px;
+	border-style: solid;
+	width: 70%;
+	margin-left: 13%;
+	margin-right: 13%;
+	}
+	#skillsnum{
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 150px;
+	width: 100%;
+	height: 200px;
+	border-style: solid;
+	}
+	#skillsnum li{
+	margin-right: 200px;
+	display: inline-block;
+	vertical-align: top;
+	}
+	#skills {
+	vertical-align: top;
+	display: inline-block;
+	width: 500px;
+	height: 980px;
+	}
+	#skills li{
+	margin-bottom: 150px;
+	display: inline-block;
+	vertical-align: top;
+	}
+	#skillsbar {
+	vertical-align: top;
+	display: inline-block;
+	width: 70%;
+	height: 980px;
+	margin-left: 70px;
+	}
+	#htmlbar {
+	margin-top: 70px;
+	width: 1500px;
+	height: 100px;
+	border-style: solid;
+	background-color: #96f321;
+	}
+	#cssbar {
+	margin-top: 60px;
+	width: 1500px;
+	height: 100px;
+	border-style: solid;
+	background-color: #96f321;
+	}
+	#javabar {
+	margin-top: 60px;
+	width: 600px;
+	height: 100px;
+	border-style: solid;
+	background-color: #96f321;
+	}
+	#pythonbar {
+	margin-top: 60px;
+	width: 150px;
+	height: 100px;
+	border-style: solid;
+	background-color: #96f321;
+	}
+	#meanbar {
+	margin-top: 60px;
+	width: 150px;
+	height: 100px;
+	border-style: solid;
+	background-color: #96f321;
+	}
+	#skillsbar li{
+	margin-right: 150px;
+	display: inline-block;
+	vertical-align: top;
+	}
+#aboutmesect {
+	vertical-align: top;
+	display: inline-block;
+	height: 400px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #96f321;
+	margin-top: 60px;
+	}
+	#intro {
+	vertical-align: top;
+	height: 1000px;
+	width: 70%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	border-style: solid;
+	border-color: #96f321;
+	margin-left: 13%;
+	margin-right: 13%;
+
 }
+	#profile{
+	vertical-align: top;
+	display: inline-block;
+	height: 267px;
+	width: 800px;
+	border-style: solid;
+	}
+	#profile img{
+	filter: none;
+	-webkit-filter: grayscale(1);
+	}
